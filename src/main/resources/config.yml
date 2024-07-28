@@ -1,0 +1,19 @@
+# 需要合并的生物
+mobs:
+  - ZOMBIE
+  - SKELETON
+  - CREEPER
+# 不进行合并的世界
+blacklist-world:
+  - world_nether
+  - world_the_end
+# 合并设置
+settings:
+  # 合并半径
+  radius: 10
+  # 合并循环周期，单位秒
+  period: 5
+  # 单个最大合并上限
+  limit: 50
+  # 名字颜色
+  name-color: GREEN
